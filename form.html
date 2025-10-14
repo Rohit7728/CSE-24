@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form action="./response.html" name="Rohit" target="_blank" method="get"></form>
+<fieldset>
+    <legend> Personal Information </legend>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+<br><br>
+<label for="email">Email:</label>
+<input type="email" name="" id="email" name="email" placeholder="Enter Your Email" required>
+<br><br>
+<label for="dob">DOB:</label>
+<input type="date" id="dob" name="dob" placeholder="Enter DOB" required>
+<br><br>
+<label for="phone">Phone:</label>
+<input type="tel" name="phone" id="phone" placeholder="123-456-7890" required>
+<br><br>
+<label for="add">Add:</label>
+<textarea name="add" id="add" rows="5" cols="30"></textarea>
+<br><br>
+<label for="pass">Password:</label>
+<input type="password" name="pass" id="pass" required>
+<br><br>
+<label for="attempt">Attempt:</label>
+<input type="number" name="attempt" id="attempt" min="1" max="5" required>
+<br><br>
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" id="male" value="male" required><label for="male">Male</label>
+<input type="radio" name="gender" id="female" value="female" required><label for="female">Female</label>
+<br><br>
+<label for="Check">Vehicles You have</label>
+<input type="checkbox" id="car" name="veh1">Car
+<input type="checkbox" name="veh2" id="bike">Bike
+<br><br>
+
+<label for="sel">Select Your Language</label>
+<select name="sel" id="sel">
+    <option >Select Your Choice</option>
+    <optgroup label="Programming Language">
+    <option value="C">C</option>
+    <option value="C++">C++</option>
+    <option value="Java">Java</option>
+    </optgroup>
+    <optgroup label="Frontend Technologies">
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="Java Script">Java Script</option>
+    </optgroup>
+</select>
+<br><br>
+
+<label for="upload">File Upload</label>
+<input type="file" required>
+
+<br><br>
+
+<label for="appoint">Appointment:</label>
+<input type="time">
+
+<br><br>
+
+<label for="url">URL:</label>
+<input type="url" name="url" id="url" placeholder="url" required>
+
+<br><br>
+
+<input type="submit">
+<input type="Reset">
+</fieldset>
+    
+</body>
+</html>
